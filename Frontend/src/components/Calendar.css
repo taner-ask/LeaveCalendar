@@ -1,0 +1,120 @@
+.calendar-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.calendar-logo{
+    font-size: 20px;
+}
+
+.calendar-logo:hover{
+    cursor: pointer;
+}
+
+.typography-title {
+    color:black;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+  }
+  
+  .customBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .typography-total {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid lightsalmon;
+}
+
+.typography-main-title {
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.button-Save{
+    font-family: arial;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+.button-Save:hover{
+    cursor: pointer;
+    background-color: rgb(252, 134, 87);
+    border: 1px solid green;
+}
+
+.button-Reset{
+    font-family: arial;
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightsalmon;
+}
+
+.button-Reset:hover{
+    cursor: pointer;
+    background-color: rgb(252, 134, 87);
+    border: 1px solid red;
+}
+
+.MuiDayCalendar-weekDayLabel[aria-label="Sunday"] {
+    color: red
+  }
+
+  .MuiDayCalendar-weekDayLabel[aria-label="Saturday"] {
+    color: red
+  }
+  
+  .MuiButtonBase-root[aria-colindex="1"],
+  .MuiButtonBase-root[aria-colindex="7"]{
+    color: #fc1a1a7e !important;
+  }
+
+  .buttons-div{
+    text-align: '-webkit-center';
+  }
+
+.LeaveListCard{
+  border-radius: 5px;
+  border: 1px solid lightsalmon;
+  height: 65px;
+}
+
+.leavesBox {
+  overflow-y: auto;
+  max-height: calc(100vh - 200px); 
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.userNameTitle{
+  display: flex;
+  border-radius: 5px;
+  border-bottom: 1px solid lightsalmon;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.LeaveListTitle{
+  color: rgb(250, 114, 60);
+}
