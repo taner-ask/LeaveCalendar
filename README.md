@@ -1,6 +1,6 @@
 ﻿# LeaveCalendar
 
-İzin almak istediğin tarihleri kayıt etmek ve almış olduğun tüm izinleini görüntülemek için geliştirilmiş bir arayüz.
+İzin almak istediğin tarihleri kayıt etmek ve almış olduğun tüm izinlerini görüntülemek için geliştirilmiş bir arayüz.
 
 Anasayfa:
 
